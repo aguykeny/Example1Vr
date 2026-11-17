@@ -22,6 +22,30 @@ MonoBehaviour:
   targetOpenXRApiVersion: 
   required: 0
   customRuntimeLoaderName: 
+--- !u!114 &-8317500389677307277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac45ba33a6cb81f468c7bf0bfcd05775, type: 3}
+  m_Name: MetaHandTrackingDataSourceFeature Android
+  m_EditorClassIdentifier: Oculus.VR::Meta.XR.MetaHandTrackingDataSourceFeature
+  m_enabled: 0
+  nameUi: Meta XR Hand Tracking Data Source
+  version: 0.0.1
+  featureIdInternal: com.meta.openxr.feature.handtrackingdatasource
+  openxrExtensionStrings: XR_EXT_hand_tracking_data_source XR_META_hand_tracking_wide_motion_mode2 XR_EXT_hand_joints_motion_range
+  company: Meta
+  priority: 0
+  targetOpenXRApiVersion: 
+  required: 0
+  customRuntimeLoaderName: 
+  m_WideMotionModeEnabled: 0
+  m_ControllerDrivenHandPoses: 0
 --- !u!114 &-7519426077681039538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -511,6 +535,30 @@ MonoBehaviour:
   targetOpenXRApiVersion: 
   required: 0
   customRuntimeLoaderName: 
+--- !u!114 &-3762342329039602480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac45ba33a6cb81f468c7bf0bfcd05775, type: 3}
+  m_Name: MetaHandTrackingDataSourceFeature Standalone
+  m_EditorClassIdentifier: Oculus.VR::Meta.XR.MetaHandTrackingDataSourceFeature
+  m_enabled: 0
+  nameUi: Meta XR Hand Tracking Data Source
+  version: 0.0.1
+  featureIdInternal: com.meta.openxr.feature.handtrackingdatasource
+  openxrExtensionStrings: XR_EXT_hand_tracking_data_source XR_META_hand_tracking_wide_motion_mode2 XR_EXT_hand_joints_motion_range
+  company: Meta
+  priority: 0
+  targetOpenXRApiVersion: 
+  required: 0
+  customRuntimeLoaderName: 
+  m_WideMotionModeEnabled: 0
+  m_ControllerDrivenHandPoses: 0
 --- !u!114 &-3606880946021594194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -762,6 +810,8 @@ MonoBehaviour:
   - {fileID: 2935359142623028963}
   - {fileID: -4227395471664515283}
   - {fileID: -3767544385508848849}
+  - {fileID: 656956515398601878}
+  - {fileID: -8317500389677307277}
   customLoaderName: 
   m_renderMode: 1
   m_latencyOptimization: 0
@@ -842,6 +892,28 @@ MonoBehaviour:
   customRuntimeLoaderName: 
   m_LeftMotionRange: 1
   m_RightMotionRange: 1
+--- !u!114 &656956515398601878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f6e474bff397ab5bbad2f935509283e, type: 3}
+  m_Name: MicrogestureOpenXRFeature Android
+  m_EditorClassIdentifier: Oculus.Interaction.UnityXR::Oculus.Interaction.Input.UnityXR.MicrogestureOpenXRFeature
+  m_enabled: 0
+  nameUi: Meta Hand Microgestures
+  version: 0.0.1
+  featureIdInternal: com.meta.openxr.feature.input.hand.microgestures
+  openxrExtensionStrings: XR_META_hand_tracking_microgestures XR_EXT_hand_interaction
+  company: Meta
+  priority: 0
+  targetOpenXRApiVersion: 
+  required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &1289978358742045740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1136,7 +1208,7 @@ MonoBehaviour:
   m_symmetricProjection: 0
   m_optimizeMultiviewRenderRegions: 0
   m_multiviewRenderRegionsOptimizationMode: 0
-  m_hasMigratedMultiviewRenderRegionSetting: 0
+  m_hasMigratedMultiviewRenderRegionSetting: 1
   m_foveatedRenderingApi: 1
   m_useOpenXRPredictedTime: 1
 --- !u!114 &3862969953663477464
@@ -1218,40 +1290,42 @@ MonoBehaviour:
   m_Name: Standalone
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.OpenXRSettings
   features:
-  - {fileID: -566162147000823164}
-  - {fileID: 1584647138771057623}
-  - {fileID: -507917446527264521}
-  - {fileID: 5537318587968922110}
-  - {fileID: 6805842557336927583}
-  - {fileID: 5597218644782844758}
-  - {fileID: 5140606683716647247}
-  - {fileID: 568524483742932715}
-  - {fileID: -4457310408637252032}
-  - {fileID: -8896970673117879496}
-  - {fileID: -7161918006710482803}
-  - {fileID: -3234641769415755847}
-  - {fileID: 3862969953663477464}
-  - {fileID: -4283192013645761969}
-  - {fileID: -7286979504277865039}
-  - {fileID: -7175340035549037143}
-  - {fileID: 2207421808973861923}
-  - {fileID: -6869963396212691549}
-  - {fileID: -6635171738721943417}
   - {fileID: -6041474107153477679}
-  - {fileID: 8991728157837188170}
-  - {fileID: 8632668301364495677}
-  - {fileID: -6469018345671428942}
-  - {fileID: -626539447180609404}
-  - {fileID: -2940256359099403887}
-  - {fileID: -5472681552134108170}
-  - {fileID: 8370873509941692651}
+  - {fileID: 5537318587968922110}
+  - {fileID: -6635171738721943417}
+  - {fileID: -4283192013645761969}
+  - {fileID: 3862969953663477464}
+  - {fileID: -4457310408637252032}
   - {fileID: 7358448743614859441}
-  - {fileID: -973056696625839749}
-  - {fileID: 2585688923544466554}
-  - {fileID: 1289978358742045740}
-  - {fileID: 3907048405626246480}
   - {fileID: -7519426077681039538}
+  - {fileID: -6869963396212691549}
+  - {fileID: 8632668301364495677}
+  - {fileID: 3907048405626246480}
+  - {fileID: 568524483742932715}
+  - {fileID: 5140606683716647247}
+  - {fileID: -6469018345671428942}
+  - {fileID: 8991728157837188170}
+  - {fileID: 1289978358742045740}
+  - {fileID: 5597218644782844758}
+  - {fileID: -5472681552134108170}
+  - {fileID: -2940256359099403887}
+  - {fileID: -507917446527264521}
+  - {fileID: -7175340035549037143}
+  - {fileID: -7286979504277865039}
+  - {fileID: -3234641769415755847}
+  - {fileID: -7161918006710482803}
   - {fileID: 7863596813140018778}
+  - {fileID: -973056696625839749}
+  - {fileID: 1584647138771057623}
+  - {fileID: -626539447180609404}
+  - {fileID: -8896970673117879496}
+  - {fileID: 8370873509941692651}
+  - {fileID: -566162147000823164}
+  - {fileID: 2207421808973861923}
+  - {fileID: 2585688923544466554}
+  - {fileID: 6805842557336927583}
+  - {fileID: 9161731594645218844}
+  - {fileID: -3762342329039602480}
   customLoaderName: 
   m_renderMode: 1
   m_latencyOptimization: 0
@@ -1825,6 +1899,28 @@ MonoBehaviour:
   featureIdInternal: com.unity.openxr.feature.input.metaquestplus
   openxrExtensionStrings: XR_META_touch_controller_plus
   company: Unity
+  priority: 0
+  targetOpenXRApiVersion: 
+  required: 0
+  customRuntimeLoaderName: 
+--- !u!114 &9161731594645218844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f6e474bff397ab5bbad2f935509283e, type: 3}
+  m_Name: MicrogestureOpenXRFeature Standalone
+  m_EditorClassIdentifier: Oculus.Interaction.UnityXR::Oculus.Interaction.Input.UnityXR.MicrogestureOpenXRFeature
+  m_enabled: 0
+  nameUi: Meta Hand Microgestures
+  version: 0.0.1
+  featureIdInternal: com.meta.openxr.feature.input.hand.microgestures
+  openxrExtensionStrings: XR_META_hand_tracking_microgestures XR_EXT_hand_interaction
+  company: Meta
   priority: 0
   targetOpenXRApiVersion: 
   required: 0

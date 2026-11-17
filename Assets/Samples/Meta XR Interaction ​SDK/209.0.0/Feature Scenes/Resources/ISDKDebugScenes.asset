@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7f04c07ecd6ce84aab090677fb9d914, type: 3}
+  m_Name: ISDKDebugScenes
+  m_EditorClassIdentifier:
+  _groupName: Debug
+  _groupEnabled: 1
+  _groupDisplayOrder: 0
+  _isDebugGroup: 1
+  _sceneInfos:
+  - DisplayName: Body Joints
+    SceneName: DebugBodyJoints
+    SceneGuid: abd747a5d8c82d5439ad2453550edbaf
+    Thumbnail: {fileID: 21300000, guid: b13aa77cabf419848a8ce52686cb29db, type: 3}
+  - DisplayName: Body Pose Comparer
+    SceneName: DebugBodyPoseComparer
+    SceneGuid: 17aa390da2a0b204ea6ba4126132fa3f
+    Thumbnail: {fileID: 21300000, guid: 99c9da9d2cd55ce47b93c3f485d62053, type: 3}
+  - DisplayName: Gesture
+    SceneName: DebugGesture
+    SceneGuid: 577706ac129bf594196dbdc4d948c6e6
+    Thumbnail: {fileID: 21300000, guid: a01a702e584ccc045a93341e671b2e0e, type: 3}
+  - DisplayName: Hand Grab
+    SceneName: DebugHandGrab
+    SceneGuid: 4a33784a144ef2442a81151052a5bb3b
+    Thumbnail: {fileID: 21300000, guid: 8bea0223975f3834f8bb34ae599f64bd, type: 3}
+  - DisplayName: Poke
+    SceneName: DebugPoke
+    SceneGuid: acb3321847c599949acfd36b778e1f7a
+    Thumbnail: {fileID: 21300000, guid: ee1bec8d45be12f4e9e19a4b671dc262, type: 3}
+  - DisplayName: Pose
+    SceneName: DebugPose
+    SceneGuid: 0c21dff7998be3b48bdbf4d868aa7710
+    Thumbnail: {fileID: 21300000, guid: 9ce47ee46ec1676479dc160112a405ce, type: 3}
+  - DisplayName: Ray
+    SceneName: DebugRay
+    SceneGuid: 98733b7ba27575749b1cb1365c853e1f
+    Thumbnail: {fileID: 21300000, guid: ab75f1854d4600c4d89a15a2d72b162a, type: 3}
+  _sceneInfoAssets:
+  - DisplayName: Body Joints
+    SceneAsset: {fileID: 102900000, guid: abd747a5d8c82d5439ad2453550edbaf, type: 3}
+    Thumbnail: {fileID: 21300000, guid: b13aa77cabf419848a8ce52686cb29db, type: 3}
+  - DisplayName: Body Pose Comparer
+    SceneAsset: {fileID: 102900000, guid: 17aa390da2a0b204ea6ba4126132fa3f, type: 3}
+    Thumbnail: {fileID: 21300000, guid: 99c9da9d2cd55ce47b93c3f485d62053, type: 3}
+  - DisplayName: Gesture
+    SceneAsset: {fileID: 102900000, guid: 577706ac129bf594196dbdc4d948c6e6, type: 3}
+    Thumbnail: {fileID: 21300000, guid: a01a702e584ccc045a93341e671b2e0e, type: 3}
+  - DisplayName: Hand Grab
+    SceneAsset: {fileID: 102900000, guid: 4a33784a144ef2442a81151052a5bb3b, type: 3}
+    Thumbnail: {fileID: 21300000, guid: 8bea0223975f3834f8bb34ae599f64bd, type: 3}
+  - DisplayName: Poke
+    SceneAsset: {fileID: 102900000, guid: acb3321847c599949acfd36b778e1f7a, type: 3}
+    Thumbnail: {fileID: 21300000, guid: ee1bec8d45be12f4e9e19a4b671dc262, type: 3}
+  - DisplayName: Pose
+    SceneAsset: {fileID: 102900000, guid: 0c21dff7998be3b48bdbf4d868aa7710, type: 3}
+    Thumbnail: {fileID: 21300000, guid: 9ce47ee46ec1676479dc160112a405ce, type: 3}
+  - DisplayName: Ray
+    SceneAsset: {fileID: 102900000, guid: 98733b7ba27575749b1cb1365c853e1f, type: 3}
+    Thumbnail: {fileID: 21300000, guid: ab75f1854d4600c4d89a15a2d72b162a, type: 3}
